@@ -2,16 +2,24 @@
   "name": "nodejs-primitive",
   "version": "1.0.0",
   "description": "Recreation of primitive for nodejs usage.",
-  "main": "index.js",
+  "main": "./lib/primitive.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/primitive"
   },
   "author": "Artur Rosa <artur.rosa@monterail.com> (arturrosa.pl)",
   "license": "ISC",
+  "files": [
+    "lib",
+    "bin"
+  ],
   "dependencies": {
     "gif-encoder": "^0.6.1",
     "minimist": "^1.2.0",
     "sharp": "^0.18.4",
     "tty-table": "^2.5.5"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "primitive": "./bin/primitive"
   }
 }
