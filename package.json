@@ -20,6 +20,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "primitive": "./bin/primitive"
+    "nodejs-primitive": "./bin/primitive.js"
   }
 }
