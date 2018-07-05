@@ -2,6 +2,10 @@
 
 This is nodejs port of the https://primitive.lol app, originally created by Michael Fogleman (written in go). Its purpose is to reproduce images with geometric primitives. This implementation is slower than original one, but is fast enough to be usable.
 
+![random animation](examples/pencils-random.gif)
+
+![progressive animation](examples/pencils-progressive.gif)
+
 ### How it Works
 
 You can find some technical information about the algorithm in the [GitHub repository](https://github.com/fogleman/primitive) of original go app.
